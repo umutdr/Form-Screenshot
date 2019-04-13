@@ -12,6 +12,7 @@ namespace Screenshot_of_the_form
             InitializeComponent();
         }
 
+        // Düzenlemeler yapılarak belirtilen öğenin ekran görüntüsü alınabilir. Örn: DatagridView, Chart, ListBox vb,
         private static void SaveScreenshot(Form frm)
         {
             int recStartX = 8;  // Sol border width 
